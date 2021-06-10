@@ -24,7 +24,7 @@ ideologies = [
         }
     },
     {
-        "name": "Nazism",
+        "name": "Naㄴㅇㄹsm",
         "desc": "Nazism is a form of Fascism that assigns power and opportunity based on Race and Ethnicity. It was the ideology of the Nazi Party, which was founded by Anton Drexler and popularized by Adolf Hitler.",
         "i18n": {
             "de": {
@@ -93,7 +93,7 @@ ideologies = [
         }
     },
     {
-        "name": "Constitutional Monarchism",
+        "name": "Constiㄴㅇㄹㄴㅇㄹal Monarchism",
         "desc": "Constitutional Monarchism is a variant of Monarchism, where the ruling Monarch needs to follow a constitution in order to rule. It is present in European Countries like the UK, Spain, Sweden etc.",
         "i18n": {
             "de": {
@@ -116,7 +116,7 @@ ideologies = [
         }
     },
     {
-        "name": "Conservatism",
+        "name": "Conseㄴㅇㄹㄴㅇㄹism",
         "desc": "Conservatism is an ideology that is mainly about preserving the status quo. Conservatives usually support diplomatic interventionism, a larger military spending and lower taxes.",
         "i18n": {
             "de": {
@@ -139,7 +139,7 @@ ideologies = [
         }
     },
     {
-        "name": "Neo-Conservatism",
+        "name": "Neo-Cㄴㅇㄹㄴㅇㄹrvatism",
         "desc": "Neo-Conservatism is a form of Conservatism that disliked the Pacificist policies of Liberal parties. Neo-Conservatives think that the goal of western nations is to bring their model to the world. They are more internationally focused.",
         "i18n": {
             "de": {
@@ -347,7 +347,7 @@ ideologies = [
         }
     },
     {
-        "name": "Georgism",
+        "name": "Georsm",
         "desc": "Georgists think that land should be publicly owned. They believe that if a person uses land, they should pay a land tax, which would replace all other taxes.",
         "i18n": {
             "de": {
