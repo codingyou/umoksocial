@@ -211,22 +211,22 @@ div.market {
 div.central {
     background-color: #FF2E28;
     text-align: right;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.decentral {
     background-color: #FF9300;
     text-align: left;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.world {
     background-color: #35a818;
     text-align: right;
-    border-left-style: solid;
+    border-right-style: solid;
 }
 div.nation {
     background-color: #424242;
     text-align: left;
-    border-right-style: solid;
+    border-left-style: solid;
 }
 div.religious {
     background-color: #FEDE45;
