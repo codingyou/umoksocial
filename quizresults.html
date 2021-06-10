@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165261047-1"></script>
+	
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -14,7 +12,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700%7CRoboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>RightValues Results</title>
+<title>우리의 목소리 표준정치테스트 결과</title>
 <link rel="icon" type="image/png" href="icon.png">
 <link rel="shortcut icon" type="image/png" href="icon.png">
 <meta charset="utf-8">
@@ -23,12 +21,15 @@
 </head>
 <body>
 <script src="quiz/ideologies.js"> </script>
-<h1>RightValues</h1>
-<hr>
-<h1 data-i18n="result-h1">Results</h1>
 
-<h2>
-<span class="weight-300" id="a-label"></span></h2>
+<img src="usa.png" class="center" style="max-width: 35%"></img>
+<br>
+<p style="text-align:center; font-weight:bolder; font-size:40px; color:white;">테스트 결과</p>
+<p style="text-align:center; font-weight:bolder; font-size:10px; color:white;">Alpha v.0.1.0</p>
+<br>
+<br>
+
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 양식 지향 | <span class="weight-300" id="a-label"></span></p>
 <div class="axis">
     <img id="img-reform" src="value_images/reform.png" height="128pt"/>
     <div class="bar reform" id="bar-reform"><div class="text-wrapper" id="reform">
@@ -36,65 +37,55 @@
     <div class="bar preserve" id="bar-preserve"><div class="text-wrapper" id="preserve"></div></div>
     <img id="img-preserve" src="value_images/preserve.png" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="b-label"></span></h2>
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 범위 지향 | <span class="weight-300" id="b-label"></span></p>
 <div class="axis">
     <img id="img-stateown" src="value_images/stateown.png" height="128pt"/>
     <div class="bar stateown" id="bar-stateown"><div class="text-wrapper" id="stateown"></div></div>
     <div class="bar market" id="bar-market"><div class="text-wrapper" id="market"></div></div>
     <img id="img-market" src="value_images/market.png" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="c-label"></span></h2>
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 원리 지향 | <span class="weight-300" id="c-label"></span></p>
 <div class="axis">
     <img id="img-central" src="value_images/central.png" height="128pt"/>
     <div class="bar central" id="bar-central"><div class="text-wrapper" id="central"></div></div>
     <div class="bar decentral" id="bar-decentral"><div class="text-wrapper" id="decentral"></div></div>
     <img id="img-decentral" src="value_images/decentral.png" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="d-label"></span></h2>
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 기술 지향 | <span class="weight-300" id="d-label"></span></p>
 <div class="axis">
     <img id="img-world" src="value_images/world.png" height="128pt"/>
     <div class="bar world" id="bar-world"><div class="text-wrapper" id="world"></div></div>
     <div class="bar nation" id="bar-nation"><div class="text-wrapper" id="nation"></div></div>
     <img id="img-nation" src="value_images/nation.png" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="e-label"></span></h2>
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 목표 지향 | <span class="weight-300" id="e-label"></span></p>
 <div class="axis">
     <img id="img-religious" src="value_images/religious.png" height="128pt"/>
     <div class="bar religious" id="bar-religious"><div class="text-wrapper" id="religious"></div></div>
     <div class="bar secular" id="bar-secular"><div class="text-wrapper" id="secular"></div></div>
     <img id="img-secular" src="value_images/secular.png" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="f-label"></span></h2>
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 다양성 지향 | <span class="weight-300" id="f-label"></span></p>
 <div class="axis">
     <img id="img-economy" src="value_images/economy.png" height="128pt"/>
     <div class="bar economy" id="bar-economy"><div class="text-wrapper" id="economy"></div></div>
     <div class="bar nature" id="bar-nature"><div class="text-wrapper" id="nature"></div></div>
     <img id="img-nature" src="value_images/nature.png" height="128pt"/>
 </div>
-<h2><span class="weight-300" id="g-label"></span></h2>
+<p style="text-align:center; font-weight:bolder; font-size:25px; color:white;"> 경향 지향 | <span class="weight-300" id="g-label"></span></p>
 <div class="axis">
     <img id="img-race" src="value_images/race.png" height="128pt"/>
     <div class="bar race" id="bar-race"><div class="text-wrapper" id="race"></div></div>
     <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
     <img id="img-equality" src="value_images/equality.png" height="128pt"/>
 </div>
-<br><br>
-<h1>Ideologies:</h1>
-<hr>
-<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
-<p class="ideodesc"><span class="weight-300" id="ideodesc-label"></span></h3>
-<p><br>You can send these results by copying and pasting the URL at the top of the page.</p>
-<h2>Next closest matches</h2>
-    <p>With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.</p>
-<dl id="next-matches"></dl>
-
-
-<hr>
-<h2>I don't like my scores!</h2>
-    <p>Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href="https://forms.gle/Puc4sjaSQqvwNu6q8">short form</a>.</p>
-<hr/>
-
-    <canvas id="banner" width=800 height=1000 style="font-family:Montserrat"></canvas>
+<br>
+<br>
+<p style="text-align:center; font-weight:bolder; font-size:35px; color:white;">가장 가까운 당신의 사상 | <span class="weight-300" id="ideology-label"></span></p>
+<br>
+<br>
+<br>
+<br>
 <button class="button" onclick="location.href='index.html';" style="font-size:18pt;">Back</button>
 
 <!-- JavaScript for the test itself -->
