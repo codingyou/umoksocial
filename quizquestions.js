@@ -1,7 +1,35 @@
 questions = [
-    //preserve (Conserve) vs Reform 
     {
-        "question": "Homosexuality is against my personal moral values.",
+		//제도-사회 그리고 본성-자연 
+        "question": "개인의 가치가 집단의 가치보다 우선시되어야 한다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": -10,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "공동체의 안정은 사회의 건전한 진전을 위해 필수적이다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": 10,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "개인의 자유는 그 무엇보다도 중요하다.",
         "i18n": {
         },
         "effect": {
@@ -15,7 +43,7 @@ questions = [
         }
     },
     {
-        "question": "Gender is a social construct.",
+        "question": "음란물, 영화 규제와 같은 문화 규제는 존재하여야한다.",
         "i18n": {
         },
         "effect": {
@@ -29,21 +57,7 @@ questions = [
         }
     },
     {
-        "question": "A crackdown on pornography is beneficial to society.",
-        "i18n": {
-        },
-        "effect": {
-            "a": -5,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "Weed should be legalized.",
+        "question": "무질서는 어떤 상황에서도 바람직하지 않다.",
         "i18n": {
         },
         "effect": {
@@ -57,21 +71,7 @@ questions = [
         }
     },
     {
-        "question": "The legalization of abortion is beneficial.",
-        "i18n": {
-        },
-        "effect": {
-            "a": 5,
-            "b": 0,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "The negatives of rapid reform outweighs its positives.",
+        "question": "여성이나 남성에게 매겨지는 사회적 의무는 사라져야 한다.",
         "i18n": {
         },
         "effect": {
@@ -85,7 +85,7 @@ questions = [
         }
     },
     {
-        "question": "More effort needs to be done to preserve our culture.",
+        "question": "규범, 제도, 법보다 도덕, 윤리, 종교가 사회 문제 해결에 효과적이다.",
         "i18n": {
         },
         "effect": {
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "Tradition holds back societies.",
+        "question": "사회적 정도(正道, 올바르다고 여겨지는 길)를 무조건적으로 따르지 않아도 된다.",
         "i18n": {
         },
         "effect": {
@@ -113,7 +113,7 @@ questions = [
         }
     },
     {
-        "question": "Reforming in a quick manner often leads to the worsening of people's lives.",
+        "question": "청소년 학업 강요 또는 학업을 부추기는 행위는 청소년의 자유를 빼앗는 행위이다.",
         "i18n": {
         },
         "effect": {
@@ -127,7 +127,7 @@ questions = [
         }
     },
     {
-        "question": "I support (Third/Fourth) Wave Feminism.",
+        "question": "윤리와 도덕은 따르지 않아도 법과 규범을 따르는 사람은 선하다고 볼 수 있다.",
         "i18n": {
         },
         "effect": {
@@ -141,7 +141,7 @@ questions = [
         }
     },
      {
-        "question": "The LGBT movement deserves more respect.",
+        "question": "사회에서 발생하는 모든 일들은 사회에서 해결하여야 한다. 제3자 또는 기관의 개입은 금지되어야 한다.",
         "i18n": {
         },
         "effect": {
@@ -155,7 +155,7 @@ questions = [
         }
     },
     {
-        "question": "I disagree with most of the values that Progressivism advocates.",
+        "question": "학교에서 학생들 간 갈등이 발생하는 경우, 교사보다 학생들의 중재가 필요하다.",
         "i18n": {
         },
         "effect": {
@@ -168,9 +168,9 @@ questions = [
             "g": 0
         }
     },
-//Stateown vs Market
+//지역-독자 vs 국제-다자
     {
-        "question": "A Laissez-Faire economy causes monopolies to form, and worsens class divide.",
+        "question": "자국, 자국민, 자민족에 위협이 되는 국가, 국민, 민족에게 적극적 조치가 필요하다. ",
         "i18n": {
         },
         "effect": {
@@ -184,7 +184,7 @@ questions = [
         }
     },
     {
-        "question": "The freer the market, the freer the people.",
+        "question": "한국 영화 스크린 쿼터제는 폐지되어야 한다.",
         "i18n": {
         },
         "effect": {
@@ -198,7 +198,7 @@ questions = [
         }
     },
     {
-        "question": "Because joining a corporation is voluntary, there isn't true oppression within corporations.",
+        "question": "청소년, 성인을 향한 제2외국어 교육을 국가 차원에서 전적으로 지원하여야 한다.",
         "i18n": {
         },
         "effect": {
@@ -212,7 +212,7 @@ questions = [
         }
     },
     {
-        "question": "Economic regulation causes economic stagnation and the overall reduction of productivity.",
+        "question": "수입산 농산물을 적극적으로 수입하여야 한다.",
         "i18n": {
         },
         "effect": {
@@ -226,7 +226,7 @@ questions = [
         }
     },
     {
-        "question": "The majority of the rich deserve to keep their property and money.",
+        "question": "인류의 보편적 번영을 위하여 과학기술은 공유되어야 한다.",
         "i18n": {
         },
         "effect": {
@@ -240,7 +240,7 @@ questions = [
         }
     },
     {
-        "question": "The gain of corporations directly correlate to the gain of the individual.",
+        "question": "국가는 국제기구 또는 이웃 국가와 무조건적으로 긍정적인 관계를 유지하여야 한다.",
         "i18n": {
         },
         "effect": {
@@ -254,7 +254,7 @@ questions = [
         }
     },
     {
-        "question": "We should have a minimal government alongside a fully functional market.",
+        "question": "우리나라는 개방적인 서구 성 문화를 도입하여야 한다.",
         "i18n": {
         },
         "effect": {
@@ -268,7 +268,7 @@ questions = [
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect its consumers.",
+        "question": "세계적으로 필요한 제품이더라도 자국내 국민들을 우선하여 해외 반출을 억제하여야 한다..",
         "i18n": {
         },
         "effect": {
@@ -282,7 +282,7 @@ questions = [
         }
     },
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "작은 사회의 활성화가 큰 사회의 안정에 영향을 미친다.",
         "i18n": {
         },
         "effect": {
@@ -296,7 +296,7 @@ questions = [
         }
     },
     {
-        "question": "We need to have more welfare compared to what we have currently.",
+        "question": "민족이나 국가를 넘어서는 하나의 인류를 만드는 것은 현실적으로 불가능하다.",
         "i18n": {
         },
         "effect": {
@@ -310,7 +310,7 @@ questions = [
         }
     },
     {
-        "question": "We should increase taxes in exchange for better welfare.",
+        "question": "모든 수단을 동원해서 평화를 좇는것은 바람직하지 않다.",
         "i18n": {
         },
         "effect": {
@@ -324,54 +324,54 @@ questions = [
         }
     },
     {
-        "question": "Insurance should be used by the individual, voluntarily, rather than welfare.",
+        "question": "태어난 사람이 국가에 소속되는 것은 자의적이지 않으므로 불합리하다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": 0,
+            "b": -10,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "유가는 산유국의 의견에 따라 자유롭게 조정될 수 있어야 한다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": 0,
+            "b": 5,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "민족은 언어, 문화적으로 공통성을 공유하는 실존공동체이므로 발전시켜야 한다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": 0,
+            "b": 10,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "다문화, 다원주의, 세계시민주의는 관용과 공존, 평화의 표현이다.",
         "i18n": {
         },
         "effect": {
             "a": 0,
             "b": -5,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "Everyone should have free quality healthcare.",
-        "i18n": {
-        },
-        "effect": {
-            "a": 0,
-            "b": 5,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "A regulation-free economy does not work practically.",
-        "i18n": {
-        },
-        "effect": {
-            "a": 0,
-            "b": 5,
-            "c": 0,
-            "d": 0,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "Individualism is what powers society, and we should embrace it.",
-        "i18n": {
-        },
-        "effect": {
-            "a": 0,
-            "b": 5,
             "c": 0,
             "d": 0,
             "e": 0,
@@ -381,7 +381,7 @@ questions = [
     },
 //Central (Authority) vs Decentral (Liberty)
     {
-        "question": "A strong government is required for a safe society.",
+        "question": "사회의 긍정적인 영향을 끼치는 수단으로서 종교의 존재가 필수적이다.",
         "i18n": {
         },
         "effect": {
@@ -395,7 +395,7 @@ questions = [
         }
     },
     {
-        "question": "A good leader should have the ability to pass on the throne to their family members.",
+        "question": "종교의 가르침은 나쁜 짓 하지 말고 착하게 살면서 다른 사람을 위하라는 것에 있다.",
         "i18n": {
         },
         "effect": {
@@ -409,7 +409,7 @@ questions = [
         }
     },
     {
-        "question": "Anarchism is not a workable concept practically.",
+        "question": "개방된 성 관념은사회 발전에 도움이 되지 않는다.",
         "i18n": {
         },
         "effect": {
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "The leader should be passed on genetically.",
+        "question": "전통이나 종교에 대해서 오류가 있어도 지적해서는 안된다.",
         "i18n": {
         },
         "effect": {
@@ -437,7 +437,7 @@ questions = [
         }
     },
     {
-        "question": "A federal state gives more power to the individual, which is beneficial to the nation.",
+        "question": "부모가 자식에게 종교를 세습하는 것은 바람직하지 않다.",
         "i18n": {
         },
         "effect": {
@@ -451,7 +451,7 @@ questions = [
         }
     },
     {
-        "question": "Stronger governments increases the risk of tyranny, which makes a nation very unstable.",
+        "question": "종교는 과학의 발전에 방해된다.",
         "i18n": {
         },
         "effect": {
@@ -465,7 +465,7 @@ questions = [
         }
     },
     {
-        "question": "I would rather have a totalitarian government than an anarchist one.",
+        "question": "진리는 존재한다.",
         "i18n": {
         },
         "effect": {
@@ -479,7 +479,7 @@ questions = [
         }
     },
     {
-        "question": "Democratic systems ultimately turn into a 2-Party system, which is not beneficial for anyone.",
+        "question": "종교는 사회적 현상이 아니라, 진리 그 자체이다.",
         "i18n": {
         },
         "effect": {
@@ -493,7 +493,7 @@ questions = [
         }
     },
     {
-        "question": "I would rather have a constitutional monarchy than an absolute monarchy.",
+        "question": "종교 계열 학교에서 타종교인 또는 무신론자에 종교 학습을 의무하는 건 부당하다.",
         "i18n": {
         },
         "effect": {
@@ -507,7 +507,7 @@ questions = [
         }
     },
      {
-        "question": "The rule of a selfless dictator is ideal for me.",
+        "question": "음란물이 당연시되는 사회 분위기는 근절되어야 한다.",
         "i18n": {
         },
         "effect": {
@@ -521,7 +521,7 @@ questions = [
         }
     },
     {
-        "question": "I would rather choose democracy over dictatorship.",
+        "question": "사회전통적 가치보다 기술적 가치를 키우는 것이 중요하다.",
         "i18n": {
         },
         "effect": {
@@ -534,9 +534,23 @@ questions = [
             "g": 0
         }
     },
-//Nation (Morality) vs World (Peace)
+//환경보존 vs 산업개발
     {
-        "question": "My nation's ideals are better than most other nation's ideals.",
+        "question": "산을 깎아내는 개발은 근절되어야 한다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": -=5,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "대한민국은 현재 경재개발이 환경보호보다 우선시되어야 한다.",
         "i18n": {
         },
         "effect": {
@@ -550,7 +564,21 @@ questions = [
         }
     },
     {
-        "question": "Rather than spreading our ideals, we should primarily work on peace and particularism.",
+        "question": "현재의 기술개발을 통해 환경오염을 많이 줄일 수 있다.",
+        "i18n": {
+        },
+        "effect": {
+            "a": 0,
+            "b": 0,
+            "c": 0,
+            "d": -10,
+            "e": 5,
+            "f": 0,
+            "g": 5
+        }
+    },
+    {
+        "question": "지속가능한 개발을 추구해야 한다.",
         "i18n": {
         },
         "effect": {
@@ -564,21 +592,7 @@ questions = [
         }
     },
     {
-        "question": "Countries with authoritarian regimes should be invaded in order to give people overseas liberty and freedom.",
-        "i18n": {
-        },
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": -5,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "International alliances are generally beneficial.",
+        "question": "개발은 필연적으로 환경오염을 가져오고, 이는 변하지 않는 사실이다.",
         "i18n": {
         },
         "effect": {
@@ -592,21 +606,7 @@ questions = [
         }
     },
     {
-        "question": "We should focus more on issues outside of our nation.",
-        "i18n": {
-        },
-        "effect": {
-            "a": 0,
-            "b": 0,
-            "c": 0,
-            "d": 5,
-            "e": 0,
-            "f": 0,
-            "g": 0
-        }
-    },
-    {
-        "question": "We should avoid conflict when possible.",
+        "question": "환경규제는 결과적으로 국민의 삶을 낮추기 때문에 철폐되어야 한다..",
         "i18n": {
         },
         "effect": {
@@ -634,7 +634,7 @@ questions = [
         }
     },
      {
-        "question": "Immigration should be easier than it is now.",
+        "question": "환경우선주의는 국가 성장 잠재력의 확충을 저지하게 될 수 있다.",
         "i18n": {
         },
         "effect": {
@@ -648,7 +648,7 @@ questions = [
         }
     },
     {
-        "question": "Having too much immigrants lead to economic decline and ideological radicalization.",
+        "question": "그린벨트는 해제하여야 한다.",
         "i18n": {
         },
         "effect": {
@@ -662,7 +662,7 @@ questions = [
         }
     },
     {
-        "question": "Illegal immigration is morally wrong in most cases.",
+        "question": "2060년에는 전세계 인구 중 10억 정도가 식량난에 허덕인다는 연구보고서는 대체로 허구이다.",
         "i18n": {
         },
         "effect": {
@@ -676,7 +676,7 @@ questions = [
         }
     },
     {
-        "question": "Illegal immigrants and regular citizens deserve the same treatments.",
+        "question": "다양한 환경오염을 방지하기 위해 환경세를 확대 또는 신설하여야 한다.",
         "i18n": {
         },
         "effect": {
