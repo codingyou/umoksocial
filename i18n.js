@@ -143,39 +143,39 @@ const i18n = {
     },
     
        "result-a-label": {
-        "en": ["Revolutionary","Progressive","Reformist","Neutral","Conservative","Traditionalist","Reactionary"],
-        "de": ["Reactionary","Progressive","Reformist","Neutral","Conservative","Traditionalist","Reactionary"],
-        "ko": ["Reactionary","Progressive","Reformist","Neutral","Conservative","Traditionalist","Reactionary"]
+        "en": ["전체주의","집단주의","공동체주의","중도","개인주의","아나키즘", "견유주의"],
+        "de": ["전체주의","집단주의","공동체주의","중도","개인주의","아나키즘", "견유주의"],
+        "ko": ["전체주의","집단주의","공동체주의","중도","개인주의","아나키즘", "견유주의"]
     },
     "result-b-label": {
-        "en": ["Planned Economy","Interventionist","Regulationist","Neutral","Limited Regulation","Free-Markets","Laissez-faire"],
-        "de": ["Planned Economy","Interventionist","Regulationist","Neutral","Limited Regulation","Free-Markets","Laissez-faire"],
-        "ko": ["Planned Economy","Interventionist","Regulationist","Neutral","Limited Regulation","Free-Markets","Laissez-faire"]
+        "en": ["민족주의","시민 내셔널리즘", "지역주의", "중도", "다자주의", "국제주의", "세계시민주의"],
+        "de": ["민족주의","시민 내셔널리즘", "지역주의", "중도", "다자주의", "국제주의", "세계시민주의"],
+        "ko": ["민족주의","시민 내셔널리즘", "지역주의", "중도", "다자주의", "국제주의", "세계시민주의"]
     },
     "result-c-label": {
-        "en": ["Totalitarian","Authoritarian","Statist","Neutral","Democratic","Libertarian","Anarchist"],
-        "de": ["Totalitarian","Authoritarian","Statist","Neutral","Democratic","Libertarian","Anarchist"],
-        "ko": ["Totalitarian","Authoritarian","Statist","Neutral","Democratic","Libertarian","Anarchist"]
+        "en": ["반지성주의", "신앙권위주의", "신앙주의", "중도", "세속주의", "효율주의", "합리주의(이성주의)"],
+        "de": ["반지성주의", "신앙권위주의", "신앙주의", "중도", "세속주의", "효율주의", "합리주의(이성주의)"],
+        "ko": ["반지성주의", "신앙권위주의", "신앙주의", "중도", "세속주의", "효율주의", "합리주의(이성주의)"]
     },
     "result-d-label": {
-        "en": ["Relativist","Particularist","Pacifist","Neutral","Diplomatic Interventionism","Universalism","Imperialism"],
-        "de": ["Relativist","Particularist","Pacifist","Neutral","Diplomatic Interventionism","Universalism","Imperialism"],
-        "ko": ["Relativist","Particularist","Pacifist","Neutral","Diplomatic Interventionism","Universalism","Imperialism"]
+        "en": ["반기술주의", "개발반대주의", "생태주의", "중도", "기술주의", "가속주의", "과학만능주의"],
+        "de": ["반기술주의", "개발반대주의", "생태주의", "중도", "기술주의", "가속주의", "과학만능주의"],
+        "ko": ["반기술주의", "개발반대주의", "생태주의", "중도", "기술주의", "가속주의", "과학만능주의"]
     },
     "result-e-label": {
-        "en": ["Theocrat","Religious Authoritarianism","Religious Influence","Neutral","Anti-clericalism","Secular State","Antitheism"],
-        "de": ["Theocrat","Religious Authoritarianism","Religious Influence","Neutral","Anti-clericalism","Secular State","Antitheism"],
-        "ko": ["Theocrat","Religious Authoritarianism","Religious Influence","Neutral","Anti-clericalism","Secular State","Antitheism"]
+        "en": ["극단적 현실주의", "현실주의", "현실적", "중도", "이상적", "이상주의", "극단적 이상주의"],
+        "de": ["극단적 현실주의", "현실주의", "현실적", "중도", "이상적", "이상주의", "극단적 이상주의"],
+        "ko": ["극단적 현실주의", "현실주의", "현실적", "중도", "이상적", "이상주의", "극단적 이상주의"]
     },
     "result-f-label": {
-        "en": ["Transhumanism","Accelerationism","Pro-Technology","Neutral","Humanism","Decelerationism","Primitivism"],
-        "de": ["Transhumanism","Accelerationism","Pro-Technology","Neutral","Humanism","Decelerationism","Primitivism"],
-        "ko": ["Transhumanism","Accelerationism","Pro-Technology","Neutral","Humanism","Decelerationism","Primitivism"]
+        "en": ["혁명주의", "다원주의", "상대주의", "중도", "절대주의", "배척주의", "반동주의"],
+        "de": ["혁명주의", "다원주의", "상대주의", "중도", "절대주의", "배척주의", "반동주의"],
+        "ko": ["혁명주의", "다원주의", "상대주의", "중도", "절대주의", "배척주의", "반동주의"]
     },
     "result-g-label": {
-        "en": ["Identitarian","Ethnic Nationalist","Race Realist","Neutral","Racial Equality","Anti-Racism","Racial Color Blindness"],
-        "de": ["Identitarian","Ethnic Nationalist","Race Realist","Neutral","Racial Equality","Anti-Racism","Racial Color Blindness"],
-        "ko": ["Identitarian","Ethnic Nationalist","Race Realist","Neutral","Racial Equality","Anti-Racism","Racial Color Blindness"]
+        "en": ["허무주의", "염세주의", "부정적", "중도", "긍정적", "낙관주의", "유토피아주의"],
+        "de": ["허무주의", "염세주의", "부정적", "중도", "긍정적", "낙관주의", "유토피아주의"],
+        "ko": ["허무주의", "염세주의", "부정적", "중도", "긍정적", "낙관주의", "유토피아주의"]
     },
     
     "result-back": {
