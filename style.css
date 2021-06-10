@@ -1,27 +1,21 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html {
-    background-color: #bbbbbb;
+    background-color: #000000;
     padding: 0px;
 }
 body {
-    width: 80%;
     min-height: calc(100vh - 4em);
     margin: 0 auto;
     padding: 2em;
-    background-color: #dddddd;
-    border-color: #eeeeee;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-width: 20px;
+    background-color: #000000;
 }
 p {
     color: #444444;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans KR', 'Roboto', sans-serif;
     font-size: 16pt;
     line-height: 1;
     margin: 4pt;
-}
-body.__i18n-ko p {
-    line-height: 140%
 }
 p.value-description {
     text-indent: -16pt;
@@ -29,55 +23,34 @@ p.value-description {
 }
 p.question {
     margin: 16pt auto;
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: normal;
-    width: 70%;
-    min-width: 500pt;
-    min-height: 144pt;
-    background-color: #eeeeee;
-    padding: 16pt;
-    border-radius: 16pt;
-    font-size: 36pt;
+    color: #ffffff;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 100%;
+    background-color: #292929;
+    padding-top: 16pt;
+    padding-bottom: 16pt;
+    border-radius: 15pt;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-p.ideodesc {
-	font-family: 'Montserrat', sans-serif;
-    color: #333333;
-    font-size: 18pt;
-    line-height: 18pt;
-    margin-top: 12pt;
-    margin-bottom: 0pt;
+
 }
 h1 {
-    color: #222222;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 72pt;
+    color: #ffffff;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+    font-size: 5rem;
     text-align: center;
-    line-height: 72pt;
+    line-height: 5rem;
     margin-top: 0pt;
     margin-bottom: 0pt;
 }
 h2 {
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     font-size: 36pt;
     line-height: 36pt;
-    margin-top: 12pt;
-    margin-bottom: 0pt;
-}
-body.__i18n-ko h2 {
-    line-height: 120%;
-    margin-top: 0.5em
-}
-h3 {
-    color: #333333;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
-    line-height: 18pt;
     margin-top: 12pt;
     margin-bottom: 0pt;
 }
@@ -85,43 +58,98 @@ li {
     font-size: 16pt;
     text-indent: 16pt;
 }
-dt {
-    font-family: 'Montserrat', sans-serif;
-}
-dd {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 12pt;
-}
 a {
     font-family: inherit;
 }
 img.center {
     display: block;
     margin: 1em auto;
-    width: 20%;
-    min-width: 400pt;
+}
+#banner {
+    width: 100%;
+    max-width: 800px;
+}
+@media screen and (max-width: 768px) {
+    #start {
+        font-size: 2rem;
+        width: 95%;
+    }
+    h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    img.center {
+        width: 90%;
+    }
+    p.question {
+        font-size: 24pt;
+        min-height: 36pt;
+    }
+    .axis {
+        width: 30%;
+    }
+    .bar {
+        height: 5vh;
+    }
+    div.text-wrapper {
+        font-size: 1em;
+    }
+    .img-something {
+        height: 16vh;
+    }
+}
+@media screen and (min-width: 769px) {
+    #start {
+        font-size: 36px;
+        width: 50%;
+    }
+    body {
+        width: 80%;
+        border-width: 20px;
+    }
+    img.center {
+        width: 50%
+    }
+    p.question {
+        font-size: 36pt;
+        min-width: 500pt;
+        min-height: 144pt;
+    }
+    .axis {
+        width: 100%;
+    }
+    .bar {
+        height: 36pt;
+    }
+    div.text-wrapper {
+        font-size: 36pt;
+    }
+    .img-something {
+        height: 128pt;
+    }
 }
 .button {
-    background-color: #2196f3;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #262A2D;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     border: none;
-    border-radius: 8pt;
+    border-radius: 4pt;
     color: white;
     padding: 8pt;
-    width: 50%;
-    min-width: 500pt;
+    width: 100%;
     text-align: center;
     text-decoration: none;
     display: block;
-    font-size: 24pt;
+    font-size: 20pt;
     margin: -2px auto;
-    cursor: pointer;
+    cursor: grab;
 }
 .small_button, .small_button_off {
     background-color: #333;
-    font-family: 'Montserrat', sans-serif;
-    border: none;
-    border-radius: 8pt;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     color: white;
     padding: 8pt;
     width: 10%;
@@ -136,107 +164,69 @@ img.center {
 .small_button_off {
     background-color: #ddd;
     color: #888;
-    border: 2px solid #888;
     cursor: not-allowed;
     margin: -4px auto;
 }
 div.axis {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 div.bar {
-    height: 36pt;
     line-height: 36pt;
-    padding: 8pt;
+    padding: 20pt;
     margin-top: 4pt;
     margin-bottom: 4pt;
-    border-width: 4px;
-    border-right-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-color: #222222;
     background-color: #eeeeee;
     display: block;
     width: 50%;
 }
 div.text-wrapper {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
+    font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
     line-height: 36pt;
-    color: #dddddd;
+    color: #222222;
     display: inline-block;
 }
-div.reform {
-    background-color: #0c5199;
-    text-align: left;
-    border-right-style: solid;
-}
-div.preserve {
-    background-color: #42c2f5;
-    text-align: right;
-    border-left-style: solid;
-}
-div.stateown {
-    background-color: #174f8a;
-    text-align: left;
-    border-right-style: solid;
-}
-div.market {
-    background-color: #c7c406;
-    text-align: right;
-    border-left-style: solid;
-}
-div.central {
-    background-color: #9403fc;
-    text-align: right;
-    border-left-style: solid;
-}
-div.decentral {
-    background-color: #1fa3c4;
-    text-align: left;
-    border-right-style: solid;
-}
-div.world {
-    background-color: #90bcd6;
-    text-align: right;
-    border-left-style: solid;
-}
-div.nation {
-    background-color: #7F3300;
-    text-align: left;
-    border-right-style: solid;
-}
-div.religious {
-    background-color: #d48817;
-    text-align: left;
-    border-right-style: solid;
-}
-div.secular {
-    background-color: #d1ccae;
-    text-align: right;
-    border-left-style: solid;
-}
-div.economy {
-    background-color: #389cd1;
-    text-align: left;
-    border-right-style: solid;
-}
-div.nature {
-    background-color: #c4b631;
-    text-align: right;
-    border-left-style: solid;
-}
-div.race {
-    background-color: #27577A;
-    text-align: left;
-    border-right-style: solid;
-}
 div.equality {
-    background-color: #C4A717;
+    background-color: #a60000;
+    text-align: left;
+    border-right-style: solid;
+}
+div.wealth {
+    background-color: #009051;
     text-align: right;
     border-left-style: solid;
+}
+div.liberty {
+    background-color: #FFC900;
+    text-align: left;
+    border-right-style: solid;
+}
+div.authority {
+    background-color: #424242;
+    text-align: right;
+    border-left-style: solid;
+}
+div.peace {
+    background-color: #76D6FF;
+    text-align: right;
+    border-left-style: solid;
+}
+div.might {
+    background-color: #915E2C;
+    text-align: left;
+    border-right-style: solid;
+}
+div.progress {
+    background-color: #0BC822;
+    text-align: right;
+    border-left-style: solid;
+}
+div.tradition {
+    background-color: #3541CD;
+    text-align: left;
+    border-right-style: solid;
 }
 span.weight-300 {
     font-weight: 300;
@@ -250,10 +240,4 @@ canvas {
     margin: 8pt;
     margin-left: auto;
     margin-right: auto;
-}
-#langPicker {
-    position: static;
-    right: 10em;
-	font-size: 20px;
-    top: 1em;
 }
